@@ -2,6 +2,12 @@
 
 - create react-app
 - Install Tailwind CSS
+- Header
+- Routing
+- Login Form
+- SignUp Form
+- Form Validation
+- useRef
 - 
 
 

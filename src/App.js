@@ -1,10 +1,11 @@
-import './App.css';
+import Body from "./Components/Body";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div className="text-3xl font-bold underline">
-      Namaste World!
-    </div>
+    // <BrowserRouter>
+      <Body />
+    // </BrowserRouter>
   );
 }
 
