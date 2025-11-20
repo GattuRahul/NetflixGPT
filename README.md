@@ -8,7 +8,8 @@
 - SignUp Form
 - Form Validation
 - useRef
-- 
+- firebase setup
+- Authentication
 
 
 
