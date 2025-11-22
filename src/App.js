@@ -1,11 +1,12 @@
+import { Provider } from "react-redux";
 import Body from "./Components/Body";
-import { BrowserRouter } from "react-router-dom";
+import appStore from "./utilities/appStore";
 
 function App() {
   return (
-    // <BrowserRouter>
+    <Provider store={appStore}>
       <Body />
-    // </BrowserRouter>
+    </Provider>
   );
 }
 

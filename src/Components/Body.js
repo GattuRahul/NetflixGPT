@@ -5,12 +5,12 @@ import Browse from './Browse';
 const Body = () => {
   return (
     <>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/browse" element={<Browse />} />
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/browse" element={<Browse />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

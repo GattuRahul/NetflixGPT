@@ -6,9 +6,6 @@ export const checkSignInValidity = (name, email, password) => {
         return "Email is invalid.";
     } else if(!passwordLengthValid) {
         return "Password must be at least 6 characters long.";
-    } else if(name !== null && !name) {
-        // Only validate name if it's being checked (Sign Up mode)
-        return "Name is required.";
     }
 
     return null; // No errors
