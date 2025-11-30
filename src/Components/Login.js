@@ -18,7 +18,7 @@ const Login = () => {
 
   const checkFormValidity = (name, email, password) => {
     const error = checkSignInValidity(name, email, password);
-    if (!error) {
+    if (!error) { 
       if (!isSignInPage) {
         createUserWithEmailAndPassword(auth, email, password)
           .then((userCredential) => {
@@ -45,7 +45,6 @@ const Login = () => {
           .then((userCredential) => {
             // Signed in 
             const user = userCredential.user;
-            console.log("User signed in:", user);
             navigate("/browse");
             // ...
           })

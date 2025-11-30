@@ -20,6 +20,11 @@
 - Bugfix: if user is not logged in redirect from browse to login page
 - un subscribe the onAuthStateChange callback
 - add hard-coded values to the constants
+- update store with movies data
+- Planning for main container and secondary container
+- fetch data for trailer video
+- update store with Trailer video data
+- Embedded the yt video and make it autoplay with mute
 
 
 
